@@ -1,0 +1,123 @@
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    color: #049c43;
+    line-height: 1.6;
+    background-image: url(ANJALI.avif);
+    background-size: 1600px 1100px;
+}
+
+/* Container for fixed width sections */
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Header Styling */
+header {
+    background-color: hsla(188, 90%, 20%, 0.112);
+    color: #1ae77a;
+    padding: 1rem 0;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #f8fdf3;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    text-decoration-color: aqua;
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+    color: #fafcfa;
+    text-align: none;
+}
+
+.profile-img {
+    border-radius: 50%;
+    width: 150px;
+    margin-right: 2rem;
+}
+
+#skills ul {
+    list-style: disc inside;
+    padding: 1rem;
+    color: #f8f4f4;
+    text-decoration: navajowhite;
+    font-weight: bold;
+}
+#skills li {
+    margin-bottom: 0.5rem;
+    color: rgb(224, 239, 239);
+}
+form {
+    display: flex;
+    flex-direction: column;
+    color:  rgba(255, 255, 255, 0.944);
+}
+
+.project {
+    margin: 1rem 0;
+    text-decoration-color: #fdf9f9;
+    color: #f8f4f4;
+}
+
+.project a {
+    color: #f8f4f4;
+    text-decoration: none;
+    font-weight: bold;
+    outline-color: aqua;
+}
+
+.project a:hover {
+    text-decoration: underline;
+}
+#contact li {
+    margin-bottom: 0.5rem;
+    color: rgb(224, 239, 239);
+}
+
+/* Footer Styling */
+footer {
+    background-color: hsla(188, 90%, 20%, 0.112);;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    position: relative;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+footer a:hover {
+    text-decoration: none;
+}
